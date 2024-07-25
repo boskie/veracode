@@ -1,4 +1,8 @@
 # Maven
+- task: VeracodeScanning@0
+  inputs:
+    VERACODE_API_KEY_ID: '$(8324594e2b60a77531da832ccae3e9fb)'
+    VERACODE_API_KEY_SECRET: '$(9dec4fe0459d178538f6fe99bbb816a454cce11a65e31ee297d0c5f7f61c603e1949c25e4dfad030bf58e5d17d90a924e19c755d327c09eeed36bc567990dec3)'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
